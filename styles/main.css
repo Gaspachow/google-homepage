@@ -11,6 +11,7 @@ button {
 .form #search {
     display: block;
     margin: 0 auto;
+    width: 25rem;
 }
 
 button {
@@ -20,6 +21,30 @@ button {
 
 .buttons {
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
+}
+
+header {
+    display: block;
+    text-align: right;
+    float: top;
+}
+
+header li, footer li{
+    display: inline;
+}
+
+.quicklang {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.quickland a, .quicklang p {
+    display: inline;
+}
+
+.bottom-right {
+    float: bottom right;
+    display: block;
 }
