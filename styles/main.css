@@ -7,3 +7,19 @@
 button {
     width: 200px;
 }
+
+.form #search {
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
