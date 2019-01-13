@@ -1,5 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .logo  img{
-    margin: 300px auto 50px auto;
+    margin: 150px auto 50px auto;
     display: block;
     
 }
@@ -48,9 +53,9 @@ footer {
     display: block;
     position: absolute;
     bottom: 0;
-    border: 1px solid red;
     padding: auto;
     width: 100%;
+    min-width: 980px;
 }
 
 #footer-right {
@@ -69,7 +74,7 @@ footer {
 
 footer {
     background-color: rgb(242, 242, 242);
-    border-top: grey;
+    border: 1px  0 solid #e4e4e4;
 }
 
 footer li {
