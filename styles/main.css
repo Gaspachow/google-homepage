@@ -40,11 +40,28 @@ header li, footer li{
     margin: 20px auto;
 }
 
-.quickland a, .quicklang p {
+.quicklang a, .quicklang p {
     display: inline;
 }
 
-.bottom-right {
-    float: bottom right;
+footer {
     display: block;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid red;
+    padding: auto;
+    width: 100%;
+}
+
+#footer-right {
+    text-align: right;
+    position: relative;
+    float: right;
+    border: 1px solid grey;
+}
+
+#footer-left {
+    text-align: left;
+    border: 1px solid grey;
+    float: left;
 }
